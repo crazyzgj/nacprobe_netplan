@@ -1,4 +1,4 @@
-networkxx:
+network:
   version: 2
   ethernets:
     eth0:
