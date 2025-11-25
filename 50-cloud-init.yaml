@@ -19,3 +19,4 @@ network:
         "Ip14":
           password: "2121313131"
         "Huawei-Guest": {}
+        "COOP Free": {}
