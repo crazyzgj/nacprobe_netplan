@@ -1,0 +1,21 @@
+network:
+  version: 2
+  ethernets:
+    eth0:
+      dhcp4: false
+      addresses:
+        - 192.168.10.1/24
+    enx0c5b8f279a64:
+      dhcp4: true
+      dhcp6: false
+      dhcp4-overrides:
+        route-metric: 200
+  wifis:
+    wlx6c1ff75522a7:
+      dhcp4: true
+      dhcp4-overrides:
+        route-metric: 100
+      access-points:
+        "Ip14":
+          password: "2121313131"
+        "Huawei-Guest": {}
