@@ -11,7 +11,7 @@ network:
       dhcp4-overrides:
         route-metric: 200
   wifis:
-    wlx6c1ff75522a7:
+    wlan0:
       dhcp4: true
       dhcp4-overrides:
         route-metric: 100
