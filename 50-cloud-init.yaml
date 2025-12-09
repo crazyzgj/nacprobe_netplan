@@ -16,7 +16,10 @@ network:
       dhcp4-overrides:
         route-metric: 100
       access-points:
+        "probe_mgmt":
+          password: "Huawei@123"
         "Ip14":
           password: "2121313131"
         "Huawei-Guest": {}
         "COOP Free": {}
+
